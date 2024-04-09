@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-color: #93ebba;
+}
+
+body > div {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 736px;
+    margin-inline: auto;
+    margin-block: 64px;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+div img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+h1,h2 {
+    font-family: 'Lora', serif;
+}
+
+h1{
+    font-size: 40px;
+    color: #258852;
+    line-height: 100%;
+    margin-bottom: 24px;
+
+}
+
+p, li, th, td {
+    font-family: 'Outfit', sans-serif;
+
+}
+
+p{
+    color: #5f564d;
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.tempo {
+    background-color: #0cceff;
+    padding: 28px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+
+}
+
+.tempo h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: 'Outfit',sans-serif;
+    color: #258852;
+    margin-bottom: 16px;
+}
+
+li {
+    padding-left: 10px;
+    color: #5f564d;
+    line-height: 150%;
+    
+
+}
+
+li+li{
+    margin-top: 8px;
+}
+
+ol, ul {
+margin-left: 20px;
+}
+
+.tempo li::marker{
+    color: #258852;
+    font-size: 12px;
+}
+
+h2{
+    font-size: 28px;
+    color: #258852;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.ingredientes li::marker{
+    font-size: 12px;
+    color: #258852;
+}
+
+hr{
+    border: 1px solid #e3ddd7;
+    margin-block: 32px;
+}
+
+.modo li::marker{
+    color: #258852;
+    font-weight: 700;
+}
+
+.informacoes p{
+    margin-bottom: 24px;
+
+}
+
+table{
+    width: 100%;
+}
+
+
+th, td {
+    border-bottom: 1px solid #e3ddd7;
+    width: 100%;
+}
+
+tr{
+    display: flex;
+}
+
+th{
+    text-align: left;
+    padding-left: 32px;
+    font-weight: 400;
+    color: rgb(140, 140, 214);
+    line-height: 150%;
+}
+
+td{
+    padding-left: 16px;
+    font-weight: 700;
+    color: #258852;
+    line-height: 150%;
+}
+
+tr + tr th,
+tr + tr td{
+  padding-block: 12px;
+}
+
+tr:nth-of-type(1)th,
+tr:nth-of-type(1) td{
+    padding-bottom: 12px;
+}
+
+tr:nth-oftype(4) th,
+tr:nth-of-type(4) td{
+
+    border: none;
+
+}
